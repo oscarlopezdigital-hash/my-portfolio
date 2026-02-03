@@ -1,7 +1,7 @@
 // src/components/common/Hero.tsx
 import { PROFILE_DATA } from '@/constants/profile';
-
 export const Hero = () => {
+    console.log("Datos cargados:", PROFILE_DATA.name);
     return (
         <section className="relative w-full py-20 lg:py-32 overflow-hidden">
             <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center">
@@ -20,7 +20,7 @@ export const Hero = () => {
                 <h1 className="text-5xl font-extrabold tracking-tight text-gray-900 sm:text-7xl mb-8">
                     {PROFILE_DATA.role.split('&')[0]}
                     <span className="block text-blue-600 mt-2 tracking-normal text-4xl sm:text-6xl">
-                        & Architecture Student
+                        & {PROFILE_DATA.role.split('&')[1]}
                     </span>
                 </h1>
 

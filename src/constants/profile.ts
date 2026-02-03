@@ -2,8 +2,8 @@ import { UserProfile } from "@/types";
 
 export const PROFILE_DATA: UserProfile = {
     name: "Óscar López",
-    role: "Full-Stack Developer & Cloud Architecture Student",
-    description: "Especialista en desarrollo robusto con Python, .NET y arquitecturas Cloud. Ayudo a empresas y negocios locales a digitalizarse con seguridad y eficiencia.",
+    role: "Full-Stack Developer & Software Architect",
+    description: "Especialista en desarrollo robusto con Python, .NET y arquitecturas Cloud. Fusiono la precisión del diseño funcional con la eficiencia técnica para digitalizar negocios con soluciones escalables y seguras.",
     githubUrl: "https://github.com/oscarlopezdigital-hash",
     projects: [
         {
