@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const geist = Geist({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function RootLayout({
                 <main className="pt-20"> {/* Padding superior para no quedar bajo el Navbar fixed */}
                     {children}
                 </main>
+                <SpeedInsights />
             </body>
         </html>
     );
